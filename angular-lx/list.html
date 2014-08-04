@@ -1,10 +1,12 @@
-<table>
+<table border="1">
 	<tr>
-		<th>Header</th>
-		<th>Header2</th>
-		<th>Header3</th>
+		<th>name</th>
+		<th>email</th>
+		<th>age</th>
 	</tr>
 	<tr ng-repeat="list in lists">
-		<td></td>
+		<td>{{list.name}}</td>
+		<td>{{list.email}}</td>
+		<td>{{list.age}}</td>
 	</tr>
 </table>
